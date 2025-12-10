@@ -1,103 +1,289 @@
 
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="utf-8">
-  <title>저작권 안내 | Dragon’s Story (dragonday.kr)</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Dragon’s Story의 저작권, 인용 및 이용 약관 안내 페이지입니다.">
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-  <header class="container">
-    <h1>저작권 안내</h1>
-    <p>© 2023–2025 Dragon’s Story (dragonday.kr). All rights reserved.</p>
-    <nav>
-      <a href="/">홈</a> · <a href="copyright.html">저작권 안내</a>
+<!-- Copyright Notice — Korean & English Side-by-Side -->
+<style>
+  /* ===== Side-by-Side (Two Column) Layout ===== */
+  .dual-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    align-items: start;
+  }
+  @media (max-width: 960px) {
+    .dual-wrap { grid-template-columns: 1fr; }
+  }
+
+  /* ===== Shared styles (adjust to your site's design system) ===== */
+  .panel {
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    padding: 18px 20px;
+    background: #fafafa;
+  }
+  .panel header h1 { margin: 0 0 6px; font-size: 22px; }
+  .panel header p { margin: 0 0 8px; color: #666; }
+  .panel h2 { margin-top: 20px; font-size: 18px; }
+  .panel ul { margin: 10px 0 16px 20px; }
+  .mono {
+    font-family: ui-monospace, Menlo, Consolas, "Courier New", monospace;
+    background:#f5f5f5; padding:8px; border-radius:6px;
+    overflow:auto;
+  }
+  .toc {
+    border-left: 4px solid #0066cc;
+    background: #f0f7ff;
+  }
+  .toc ul { margin-top: 8px; }
+  .muted { color:#666; }
+  .panel footer { margin-top: 16px; font-size: 13px; color:#666; }
+
+  /* Optional: anchor spacing for in-page links */
+  .panel section[id] { scroll-margin-top: 80px; }
+</style>
+
+<div class="dual-wrap" aria-label="Korean-English parallel copyright notice">
+  <!-- ===== Left: Korean ===== -->
+  <article class="panel" lang="ko" id="copyright-ko">
+     <header>
+      <h1>저작권 안내</h1>
+      <p>© 2023–2025 <strong>Dragon’s Story</strong> (dragonday.kr). All rights reserved.</p>
+          <nav>
+      <a href="https://www.dragonday.kr">홈(Home)</a> · <a href="copyright.html">저작권 안내(Copy Right)</a>
     </nav>
-  </header>
-  <main class="container">
-    <section class="box toc" aria-label="목차">
+      <!-- 언어 토글(선택 사항): 페이지 상단 글로벌 내비게이션에서 연결해도 좋습니다 -->
+      <!-- <nav>#copyright-ko국문</a> · #copyright-en영문</a></nav> -->
+    </header>
+
+    <!-- 목차 -->
+    <section class="panel toc" aria-label="목차">
       <strong>목차</strong>
       <ul>
-        <li><a href="#scope">1. 보호 범위</a></li>
-        <li><a href="#fairuse">2. 인용 및 비상업적 사용</a></li>
-        <li><a href="#commercial">3. 상업적 이용 및 2차 저작물</a></li>
-        <li><a href="#thirdparty">4. 제3자 자료의 처리</a></li>
-        <li><a href="#request">5. 이용 요청 절차</a></li>
-        <li><a href="#takedown">6. 침해 신고 및 삭제 요청</a></li>
-        <li><a href="#trademark">7. 상표권 및 브랜드 표기</a></li>
-        <li><a href="#disclaimer">8. 면책 조항</a></li>
-        <li><a href="#updates">9. 정책 변경</a></li>
-        <li><a href="#contact">10. 문의처</a></li>
-        <li><a href="#effective">11. 시행일</a></li>
+        <li>#ko-scope1. 보호 범위</a></li>
+        <li>#ko-fairuse2. 인용 및 비상업적 사용</a></li>
+        <li>#ko-commercial3. 상업적 이용 및 2차 저작물</a></li>
+        <li>#ko-thirdparty4. 제3자 자료의 처리</a></li>
+        <li>#ko-request5. 이용 요청 절차</a></li>
+        <li>#ko-takedown6. 침해 신고 및 삭제 요청</a></li>
+        <li>#ko-trademark7. 상표권 및 브랜드 표기</a></li>
+        <li>#ko-disclaimer8. 면책 조항</a></li>
+        <li>#ko-updates9. 정책 변경</a></li>
+        <li>#ko-contact10. 문의처</a></li>
+        <li>#ko-effective11. 시행일</a></li>
       </ul>
     </section>
 
-    <section id="scope">
+    <section id="ko-scope">
       <h2>1. 보호 범위</h2>
-      <p>본 사이트의 모든 콘텐츠(텍스트, 이미지, 도표, 데이터, 파일, 레이아웃)는 저작권법과 국제 협약에 의해 보호됩니다. 무단 복제·배포·공중송신·전시·전송·변형을 금합니다.</p>
+      <p>
+        본 사이트의 모든 콘텐츠(텍스트, 이미지, 도표, 데이터, 파일, 레이아웃 및 페이지 구조 포함)는
+        저작권법 및 관련 국제 협약에 의해 보호됩니다.
+        <strong>무단 복제·배포·공중송신·전시·전송·변형</strong>을 금합니다.
+      </p>
     </section>
 
-    <section id="fairuse">
+    <section id="ko-fairuse">
       <h2>2. 인용 및 비상업적 사용</h2>
-      <p>비상업적 목적의 제한적 인용을 허용합니다. 반드시 출처(사이트명, 원문 제목, URL)를 명시하고, 분량은 최소화하며 문맥을 왜곡하지 않아야 합니다.</p>
+      <p><strong>비상업적 목적</strong>의 제한적 인용을 아래 조건으로 허용합니다.</p>
+      <ul>
+        <li><strong>출처 명시 필수</strong>: 사이트명(Dragon’s Story), 원문 제목, URL.</li>
+        <li>인용 분량은 <strong>필요 최소한</strong>으로 하고, 문맥·의미를 왜곡하지 않아야 합니다.</li>
+        <li>교육/사내 교육 문서에는 <strong>원문 링크</strong>를 포함하는 것을 권장합니다.</li>
+      </ul>
       <pre class="mono">예) 출처: Dragon’s Story – “스트로벨 재봉이 품질을 결정짓는 이유”, https://www.dragonday.kr/...</pre>
+      <p class="muted">※ 전체 복제, 체계적 재배포, 데이터베이스 구축, 대량 크롤링·재게시 등은 허용되지 않습니다.</p>
     </section>
 
-    <section id="commercial">
+    <section id="ko-commercial">
       <h2>3. 상업적 이용 및 2차 저작물</h2>
-      <p>상업적 이용(유료 강의·서적·리포트·기업 마케팅 자료 등) 또는 번역·편집·요약·데이터 재가공 등 2차 저작물 제작·배포 시 사전 서면 허가가 필요합니다.</p>
+      <p>
+        <strong>상업적 목적</strong>(유료 강의·서적·리포트·기업 마케팅 자료 등) 또는
+        <strong>2차 저작물</strong>(번역·편집·요약·데이터 재가공)의 제작·배포는
+        <strong>사전 서면 허가</strong>가 필요합니다.
+      </p>
     </section>
 
-    <section id="thirdparty">
+    <section id="ko-thirdparty">
       <h2>4. 제3자 자료의 처리</h2>
       <ul>
-        <li>외부 이미지·도표·문헌 인용은 해당 라이선스를 준수하고 출처를 표기합니다.</li>
-        <li>권리 문제 제기 시 확인 후 지체 없이 수정·삭제합니다.</li>
-        <li>사용자 제출 자료의 권리는 제출자에게 있으며, 사이트는 표시·게시·보관을 위한 비독점적 사용권을 가질 수 있습니다.</li>
+        <li>외부 이미지·도표·문헌 인용은 라이선스를 준수하며, 출처를 표시합니다.</li>
+        <li>권리 문제 통보 시 확인 후 <strong>지체 없이 수정·삭제</strong>합니다.</li>
+        <li>사용자 제출 자료는 제출자가 권리를 보유하며, 사이트는 표시·게시·보관을 위한 <em>비독점적 사용권</em>을 가질 수 있습니다.</li>
       </ul>
     </section>
 
-    <section id="request">
+    <section id="ko-request">
       <h2>5. 이용 요청 절차</h2>
-      <p>상업적 이용 또는 대량 인용이 필요한 경우 아래 정보를 포함해 이메일로 요청해 주세요: 목적, 사용 매체, 공개일, 사용 범위, 표기 방식, 예상 독자.</p>
+      <p>상업적 이용 또는 대량 인용·재배포가 필요한 경우, 아래 정보를 포함하여 이메일로 요청해 주세요.</p>
+      <ul>
+        <li>목적(상업/비상업), 사용 매체/채널, 공개 예정일</li>
+        <li>사용 범위(본문·이미지·도표·데이터 등)와 분량/페이지</li>
+        <li>표기 방식(출처·링크·저자), 예상 독자/배포 대상</li>
+      </ul>
+      <p>검토 후 허가 여부·조건(표기 규정, 라이선스 비용 등)을 회신합니다.</p>
     </section>
 
-    <section id="takedown">
+    <section id="ko-takedown">
       <h2>6. 침해 신고 및 삭제 요청</h2>
       <p>권리자 성명/기관, 연락처, 침해 URL과 내용, 권리 보유 증빙을 포함해 이메일로 신고해 주세요. 합리적 근거 확인 시 신속히 조치합니다.</p>
     </section>
 
-    <section id="trademark">
+    <section id="ko-trademark">
       <h2>7. 상표권 및 브랜드 표기</h2>
-      <p>언급되는 기업명·제품명·로고·상표는 각 권리자의 상표입니다. Dragon’s Story는 해당 상표와 무관하며 분석 목적의 합리적 사용 범위 내에서만 언급합니다.</p>
+      <p>
+        언급되는 기업명·제품명·로고·상표는 각 권리자의 상표입니다.
+        <strong>Dragon’s Story</strong>는 해당 상표와 무관하며, 분석 목적의 합리적 사용 범위 내에서만 언급합니다.
+      </p>
     </section>
 
-    <section id="disclaimer">
+    <section id="ko-disclaimer">
       <h2>8. 면책 조항</h2>
-      <p>본 정보는 교육·연구·산업 인사이트 제공을 위한 일반 정보이며, 법률·경영·기술적 결정의 유일한 근거로 사용되어서는 안 됩니다. 실제 적용 시 최신 법령·규격·현장 조건을 확인하고 전문가 자문을 받으세요.</p>
+      <p>
+        본 정보는 교육·연구·산업 인사이트 제공을 위한 일반 정보이며,
+        <strong>법률·경영·기술적 결정의 유일한 근거</strong>로 사용되어서는 안 됩니다.
+        실제 적용 시 최신 법령·규격·현장 조건을 확인하고 전문가 자문을 받으시기 바랍니다.
+      </p>
     </section>
 
-    <section id="updates">
+    <section id="ko-updates">
       <h2>9. 정책 변경</h2>
       <p>본 안내는 필요에 따라 수정될 수 있으며, 변경 시 본 페이지에 최신 버전을 게시합니다. 중대한 변경은 공지로 안내할 수 있습니다.</p>
     </section>
 
-    <section id="contact">
+    <section id="ko-contact">
       <h2>10. 문의처</h2>
       <p>이메일: <a href="mailto:contact@dragonday.kr">shoe4man@naver.com</a> <span class="muted"></span></p>
     </section>
 
-    <section id="effective">
+    <section id="ko-effective">
       <h2>11. 시행일</h2>
-      <p>2023-07-29부터 시행합니다.</p>
+      <p><strong>2025-12-09</strong>부터 시행합니다.</p>
     </section>
-  </main>
 
-  <footer class="container footer">
-    <p>© 2023–2025 Dragon’s Story (dragonday.kr). All rights reserved.</p>
-    <p><a href="/">홈</a> · <a href="/privacy">개인정보처리방침</a> · <a href="/contact">문의</a></p>
-  </footer>
-</body>
-</html>
+    <footer>
+      <p>© 2023–2025 Dragon’s Story (dragonday.kr). All rights reserved.</p>
+    </footer>
+  </article>
+
+  <!-- ===== Right: English ===== -->
+  <article class="panel" lang="en" id="copyright-en">
+    <header>
+      <h1>Copyright Notice</h1>
+      <p>© 2023–2025 <strong>Dragon’s Story</strong> (dragonday.kr). All rights reserved.</p>
+      <!-- Optional language toggle -->
+      <!-- <nav>#copyright-koKorean</a> · #copyright-enEnglish</a></nav> -->
+    </header>
+
+    <!-- TOC -->
+    <section class="panel toc" aria-label="Table of Contents">
+      <strong>Contents</strong>
+      <ul>
+        <li>#en-scope1. Scope of Protection</a></li>
+        <li>#en-fairuse2. Citation and Non‑commercial Use</a></li>
+        <li>#en-commercial3. Commercial Use and Derivative Works</a></li>
+        <li>#en-thirdparty4. Third‑party Materials</a></li>
+        <li>#en-request5. Permission Request Procedure</a></li>
+        <li>#en-takedown6. Copyright Infringement & Takedown</a></li>
+        <li>#en-trademark7. Trademarks and Brand References</a></li>
+        <li>#en-disclaimer8. Disclaimer</a></li>
+        <li>#en-updates9. Policy Updates</a></li>
+        <li>#en-contact10. Contact</a></li>
+        <li>#en-effective11. Effective Date</a></li>
+      </ul>
+    </section>
+
+    <section id="en-scope">
+      <h2>1. Scope of Protection</h2>
+      <p>
+        All content on this site (including text, images, diagrams, data, files, layout, and page structure)
+        is protected by applicable copyright laws and international treaties.
+        Unauthorized <strong>reproduction, distribution, public transmission, display, modification, or adaptation</strong> is prohibited.
+      </p>
+    </section>
+
+    <section id="en-fairuse">
+      <h2>2. Citation and Non‑commercial Use</h2>
+      <p>Limited citation for <strong>non‑commercial purposes</strong> is permitted under the following conditions:</p>
+      <ul>
+        <li><strong>Source attribution is required</strong>: site name (Dragon’s Story), original article title, and canonical URL.</li>
+        <li>Quoted portion must be kept to the <strong>minimum necessary</strong> and must not distort context or meaning.</li>
+        <li>For education or internal training, include the <strong>original link</strong> whenever feasible.</li>
+      </ul>
+      <pre class="mono">Example: Source — Dragon’s Story: “Why Strobel Stitching Determines Quality”, https://www.dragonday.kr/...</pre>
+      <p class="muted">※ Full reproduction, systematic redistribution, database building, or mass scraping/reposting is not allowed.</p>
+    </section>
+
+    <section id="en-commercial">
+      <h2>3. Commercial Use and Derivative Works</h2>
+      <p>
+        Any <strong>commercial use</strong> (e.g., paid courses, books, reports, corporate marketing materials) or creation/distribution of
+        <strong>derivative works</strong> (translation, editing, summarization, data reprocessing) requires <strong>prior written permission</strong>.
+        Unauthorized commercial exploitation may result in legal action.
+      </p>
+    </section>
+
+    <section id="en-thirdparty">
+      <h2>4. Third‑party Materials</h2>
+      <ul>
+        <li>External images, diagrams, and citations comply with their respective licenses, and sources are indicated.</li>
+        <li>If a rights concern is reported, we will review and <strong>promptly modify or remove</strong> the content.</li>
+        <li>User‑submitted materials remain the property of the submitter; the site retains a <em>non‑exclusive</em> right for display and storage.</li>
+      </ul>
+    </section>
+
+    <section id="en-request">
+      <h2>5. Permission Request Procedure</h2>
+      <p>For commercial use or extensive citation/redistribution, please email the following details:</p>
+      <ul>
+        <li>Purpose (commercial/non‑commercial), media/channel, anticipated publication date</li>
+        <li>Scope of use (text, images, diagrams, data; expected volume/pages)</li>
+        <li>Attribution method (source, link, author credits), expected audience/distribution</li>
+      </ul>
+      <p>We will review and reply with permission status and any conditions (attribution rules, licensing fees, etc.).</p>
+    </section>
+
+    <section id="en-takedown">
+      <h2>6. Copyright Infringement & Takedown</h2>
+      <p>
+        Please report infringement by email with: rights holder name/organization, contact information,
+        infringing URL(s) and description, and proof of ownership (registration, contracts, original files).
+        Verified claims will be addressed <strong>promptly</strong>.
+      </p>
+    </section>
+
+    <section id="en-trademark">
+      <h2>7. Trademarks and Brand References</h2>
+      <p>
+        All mentioned company names, product names, logos, and trademarks are the property of their respective owners.
+        <strong>Dragon’s Story</strong> is not affiliated with these brands; references are made solely for analytical purposes within fair use.
+      </p>
+    </section>
+
+    <section id="en-disclaimer">
+      <h2>8. Disclaimer</h2>
+      <p>
+        The information provided is for education, research, and industry insights.
+        It should not be the sole basis for <strong>legal, business, or technical decisions</strong>.
+        Verify current regulations/standards and consult qualified experts before implementation.
+      </p>
+    </section>
+
+    <section id="en-updates">
+      <h2>9. Policy Updates</h2>
+      <p>This notice may be updated as needed. The latest version will be posted on this page. Material changes may be announced via site notices.</p>
+    </section>
+
+    <section id="en-contact">
+      <h2>10. Contact</h2>
+      <p>Email: <a href="mailto:contact@dragonday.kr">shoe4man@naver.com</a> <span class="muted"></span></p>
+    </section>
+
+    <section id="en-effective">
+      <h2>11. Effective Date</h2>
+      <p>Effective as of <strong>December 9, 2025</strong> (local time).</p>
+    </section>
+
+    <footer>
+      <p>© 2023–2025 Dragon’s Story (dragonday.kr). All rights reserved.</p>
+      <p><a href="https://www.dragonday.kr">홈(Home)</a> · <a href="/privacy">개인정보처리방침</a> · <a href="shoe4man@naver.com">문의</a></p>
+    </footer>
+  </article>
+</div>
